@@ -1,0 +1,50 @@
+[
+    {
+        "version": "BETA V0.7.0",
+        "date": "2025-02-4",
+        "short_description": "News & About pages are live + new pages!",
+        "full_description": "This is a big update, for both frontend & backend. For frontend I released 2 pages: the About, and the News pages. I've also added some new pages - with the new option in the nav bar: the 'Projects' option where you can see all of my current project, and in the future, with more details and a better design :). For the backend, I improved the changelog, news, and browse backend, for better performance (also added one for the projects). I've also added more websites to the current categories. You can go check them out by clicking the 'Browse' option in the nav bar.",
+        "images": ["beta_v0.4.0"]
+    },
+    {
+        "version": "BETA V0.4.0",
+        "date": "2025-01-31",
+        "short_description": "New home page section - And more!",
+        "full_description": "We've added some new updates to the website -- in both frontend and backend. To start off, we added a new section under the main page - the 'Most popular categories' where you can (obviously) see the most popular categoires (and also most helpful). We also added a new category, the 'Artificial Intelligence' category. For the backend, we replaced some things, and updated the structure. More updates are coming soon. More categories released, more websites posted, new sections.",
+        "images": ["beta_v0.4.0"]
+    },
+    {
+    "version": "BETA V0.3.0",
+    "date": "2025-01-28",
+    "short_description": "Building the Browsing function!",
+    "full_description": "We've officially begun developing the browsing page, added test categories and websites, built a strong backend foundation for future updates regarding the category/websites browsing etc. updates. Go check it out now! Click the 'Browse' button from the navbar or simply click the 'Browse Categories' button on the main page.",
+    "images": [""]
+    },
+    {
+    "version": "BETA V0.2.1",
+    "date": "2025-01-24",
+    "short_description": "Remodeled pages, UI updates, New pages",
+    "full_description": "This is quite a big update - especially to the UI. \nWe've changed: \n\n-> the 'See browse' button design; \n->changed the color from the 'Learn More' button;\n-> The design of the About page. \n\nWe've added: \n-> 'About the developer' in the about page; \n-> 'Coming Soon' screen in both browse & News pages; \n-> Completly new design to the changelog page",
+    "images": [""]
+    },
+    {   "version": "BETA V0.1.5",
+    "date": "2025-01-23",
+    "short_description": "Added new UI elements and improved them",
+    "full_description": "Added new, more animated & responsive buttons, added a visual text of the current version of the website, made some changes to the Changelog page (remaining just to remodel it soon).",
+    "images": [""]
+    },
+    {
+    "version": "BETA V0.1.2",
+    "date": "2025-01-22",
+    "short_description": "Fixed minor UI bugs and improved navigation.",
+    "full_description": "In this release, we addressed several UI bugs and made improvements to the navigation bar, including better hover effects and smoother scrolling.",
+    "images": [""]
+    },
+    {
+    "version": "BETA V0.1.1",
+    "date": "2025-01-18",
+    "short_description": "Added the core & basic functions to the site",
+    "full_description": "New core & basic functions ware added to the website, that are a strong foundation to the future updates that will be released.",
+    "images": [""]
+    }
+]

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="category-detail-container">
+  <!-- Category Title and Description -->
+  <div class="category-header">
+    <h1 class="category-title">{{ category.name }}</h1>
+    <p class="category-description">{{ category.description }}</p>
+  </div>
+
+  <!-- Websites List -->
+  <div class="websites-container">
+    {% for website in category.websites %}
+    <div class="website-card">
+      <h3 class="website-name">{{ website.name }}</h3>
+      <p class="website-description">{{ website.description }}</p>
+      <button class="view-website-button" onclick="window.open('{{ website.url }}', '_blank')">View Website</button>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

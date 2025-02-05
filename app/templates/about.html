@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="about-page">
+    <h1 class="about-title">About RLink</h1>
+    <div class="about-card">
+        <p>
+            Welcome to RLink! This website is designed to provide users with an organized, user-friendly way to browse through a wide variety of categories and websites tailored to meet your needs. Whether you're searching for cutting-edge AI tools, innovative projects, or just exploring, we've got something for everyone. Our goal is to make finding the right tools and resources as simple and enjoyable as possible, with a clean interface and constant updates to improve your browsing experience.
+        </p>
+    </div>
+    <h1 class="aboutDev-title">About The Developer</h1>
+    <div class="aboutDev-card">
+        <p>
+            RCraft's developer, under the name of 'Mr. R' developed every part of this website even tho he doesn't know how to code.
+            He did it all with the help of AI (Artificial Intelligence).
+        </p>
+    </div>
+    <button class="view-browse-btn" onclick="window.location.href='{{ url_for('main.home') }}'">Go to Home page</button>
+</section>
+
+{% endblock %}

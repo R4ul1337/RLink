@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include "projects_nav.html" %}
+
+<div class="projects-container">
+  <section id="showcase">
+    <h1>Mr. R's Projects</h1>
+    <p>Explore some of the projects I've built or contributed to.</p>
+  </section>
+
+  <section id="project-cards">
+    <h2>Select a Project</h2>
+    <div class="card-container">
+      {% for project in projects %}
+      <div class="project-card">
+        <img src="{{ project.image }}" alt="{{ project.name }} Image">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+        <button onclick="window.location.href='/projects/{{ project.slug }}'">View Project</button>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

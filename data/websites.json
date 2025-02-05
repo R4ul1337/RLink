@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com/",
+        "description": "Powerfull AI tools to boost your productivity.",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Shopify",
+        "url": "https://www.shopify.com",
+        "description": "A complete platform to start and run an online store.",
+        "category_id": 2
+    },
+    {
+        "id": 3,
+        "name": "Mailchimp",
+        "url": "https://www.mailchimp.com",
+        "description": "Powerful email marketing and automation tools.",
+        "category_id": 3
+    },
+    {
+        "id": 4,
+        "name": "Canva",
+        "url": "https://www.canva.com",
+        "description": "A user-friendly tool for designing logos and graphics.",
+        "category_id": 4
+    }
+]

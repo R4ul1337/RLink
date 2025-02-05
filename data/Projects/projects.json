@@ -1,0 +1,33 @@
+[
+    {
+      "name": "RLink - BETA0.7.0",
+      "description": "RLink is a website ...",
+      "slug": "rlink",
+      "image": "data/Projects/img/project1.png"
+    },
+    {
+      "name": "RGames - BETA0.0.4",
+      "description": "COMING SOON",
+      "slug": "rgames",
+      "image": "data/Projects/img/project2.jpg"
+    },
+    {
+      "name": "RCreator - BETA0.0.0",
+      "description": "COMING SOON",
+      "slug": "rcreator",
+      "image": "data/Projects/img/project3.jpeg"
+    },
+    {
+        "name": "RScraper - BETA0.3.0",
+        "description": "RELEASING SOON",
+        "slug": "rscraper",
+        "image": "data/Projects/img/project3.jpeg"
+    },
+    {
+        "name": "RHub",
+        "description": "Future Project. Did not started building it.",
+        "slug": "rhub",
+        "image": "data/Projects/img/project3.jpeg"
+    }
+  ]
+  

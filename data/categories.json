@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "AI Tools",
+        "icon": "digital-marketing.png",
+        "description": "Boost your productivity with AI tools for every domain.",
+        "slug": "ai"
+    },
+    {
+        "id": 2,
+        "name": "E-commerce",
+        "icon": "ecommerce.png",
+        "description": "Find the best platforms for online shopping and selling.",
+        "slug": "ecommerce"
+    },
+    {
+        "id": 3,
+        "name": "Digital Marketing",
+        "icon": "digital-marketing.png",
+        "description": "Boost your online presence with these tools.",
+        "slug": "digital-marketing"
+    },
+    {
+        "id": 4,
+        "name": "Logo Design",
+        "icon": "logo-design.png",
+        "description": "Create stunning logos with these top tools.",
+        "slug": "logo-design"
+    }
+]

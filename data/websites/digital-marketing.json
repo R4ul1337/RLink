@@ -1,0 +1,57 @@
+{
+    "name": "Digital Marketing",
+    "slug": "digital-marketing",
+    "description": "Boost your online presence with these tools.",
+    "websites": [
+        {
+            "name": "HubSpot",
+            "url": "https://www.hubspot.com/",
+            "description": " Inbound marketing platform"
+        },
+        {
+            "name": "SEMrush",
+            "url": "https://www.semrush.com/",
+            "description": "SEO & online marketing tools"
+        },
+        {
+            "name": "Moz",
+            "url": "https://moz.com/",
+            "description": "SEO & analytics"
+        },
+        {
+            "name": "Ahrefs",
+            "url": "https://ahrefs.com/",
+            "description": "SEO & competitor analysis"
+        },
+        {
+            "name": "Google Ads",
+            "url": "https://ads.google.com/",
+            "description": "Paid advertising platform"
+        },
+        {
+            "name": "Facebook Ads Manager",
+            "url": "https://www.facebook.com/business/tools/ads-manager",
+            "description": "Social media advertising"
+        },
+        {
+            "name": "MailChimp",
+            "url": "https://mailchimp.com/",
+            "description": "Email marketing & automation"
+        },
+        {
+            "name": "Hootsuite",
+            "url": "https://www.hootsuite.com/",
+            "description": "Social media management"
+        },
+        {
+            "name": "Canva",
+            "url": "https://www.canva.com/",
+            "description": "Design & content marketing"
+        },
+        {
+            "name": "Buffer",
+            "url": "https://buffer.com/",
+            "description": "Social media scheduling & analytics"
+        }
+    ]
+}

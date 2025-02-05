@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!--<section class="browse">
+    <h1>browse</h1>
+    <div class="builds">
+        {% for build in builds %}
+        <div class="build-card">
+            <img src="{{ build.image }}" alt="{{ build.title }}">
+            <h3>{{ build.title }}</h3>
+            <p>{{ build.description }}</p>
+            <a href="{{ url_for('main.build', build_id=build.id) }}">Learn More</a>
+        </div>
+        {% endfor %}
+    </div>
+</section>-->
+
+<div class="browse-coming-soon-container">
+    <h1 class="browse-coming-soon-title">COMING SOON</h1>
+    <p class="browse-coming-soon-subtitle">We figured out that is better to put this screen, instead of letting you see all the unfinished work :))<br><br><br>Big things are coming to this website! - Stay tuned!
+    </p>
+    <button class="view-browse-btn" onclick="window.location.href='{{ url_for('main.home') }}'">Go to Home page</button>
+</div>
+
+{% endblock %}

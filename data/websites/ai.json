@@ -1,0 +1,57 @@
+{
+    "name": "Artificial Intelligence",
+    "slug": "ai",
+    "description": "Websites related to AI technologies, tools, and resources.",
+    "websites": [
+        {
+            "name": "OpenAI",
+            "url": "https://openai.com",
+            "description": "Advanced AI research organization."
+        },
+        {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co",
+            "description": "NLP tools and transformers library."
+        },
+        {
+            "name": "Deepmind",
+            "url": "https://deepmind.google/",
+            "description": "AI research by Google"
+        },
+        {
+            "name": "AI21",
+            "url": "https://www.ai21.com/",
+            "description": "Advanced language AI"
+        },
+        {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/",
+            "description": "AI research and safety"
+        },
+        {
+            "name": "IBM Watson",
+            "url": "https://www.ibm.com/watson",
+            "description": "AI solutions for businesses"
+        },
+        {
+            "name": "Runway",
+            "url": "https://runwayml.com/",
+            "description": "AI-powered video editing"
+        },
+        {
+            "name": "Stability AI",
+            "url": "https://stability.ai/",
+            "description": "Creators of Stable Diffusion"
+        },
+        {
+            "name": "Google AI",
+            "url": "https://ai.google/",
+            "description": "AI research by Google"
+        },
+        {
+            "name": "Microsoft AI",
+            "url": "https://www.microsoft.com/en-us/ai",
+            "description": "AI tools & cloud solutions"
+        }
+    ]
+}

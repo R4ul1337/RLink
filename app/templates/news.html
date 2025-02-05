@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="news-container">
+    <h1 class="page-title">Latest News</h1>
+    <div class="news-cards-container">
+        {% for news_item in news %}
+        <div class="news-card">
+            <h2 class="news-title">{{ news_item.title }}</h2>
+            <p class="news-date">{{ news_item.date }}</p>
+            <p class="news-description">{{ news_item.description }}</p>
+            {% if news_item.link %}
+            <a href="{{ news_item.link }}" class="news-btn" target="_blank">Read More</a>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

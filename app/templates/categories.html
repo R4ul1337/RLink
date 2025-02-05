@@ -1,0 +1,190 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="categories-container">
+    <h1 class="title">Explore Categories</h1>
+    <div class="categories-grid">
+        {% for category in categories %}
+        <div class="category-card">
+            <!--<img class="category-icon" src="{{ url_for('static', filename='icons/' + category.icon) }}" alt="{{ category.name }}">-->
+            <div class="category-content">
+                <h2 class="category-title">{{ category.name }}</h2>
+                <p class="category-description">{{ category.description }}</p>
+                <button class="browse-websites" onclick="window.location.href='/categories/{{ category.slug }}'">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Browse Websites</span>
+                </button>                
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+/* General container styles */
+.categories-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Title at the top */
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #ffffff; /* Changed to white for better contrast */
+}
+
+/* Grid layout for the cards */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Individual card styles */
+.category-card {
+    background: #1e1e1e; /* Darker card color */
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Category icon */
+.category-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Category title */
+.category-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #ffffff; /* White for title contrast */
+}
+
+/* Category description */
+.category-description {
+    font-size: 1rem;
+    color: #cccccc; /* Light gray for description contrast */
+    margin: 0.5rem 0 1.5rem 0;
+    text-align: center;
+}
+
+/* Updated 'Learn More' button styles */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* General Button Styles */
+button.browse-websites {
+    width: 14rem; /* Increased width for longer text */
+    height: auto;
+}
+
+button.browse-websites .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #3498db; /* Updated default color to a calm blue */
+    border-radius: 1.625rem;
+}
+
+button.browse-websites .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.browse-websites .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.browse-websites .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #1e1e1e;
+    border-right: 0.125rem solid #1e1e1e;
+    transform: rotate(45deg);
+}
+
+button.browse-websites .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 2.5rem; /* Adjusted spacing to fit longer text */
+    color: #ffffff; /* White text for better contrast */
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Hover Effects */
+button.browse-websites:hover .circle {
+    width: 100%;
+    background: #2980b9; /* Darker blue on hover */
+}
+
+button.browse-websites:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button.browse-websites:hover .button-text {
+    color: #f1f1f1; /* Slightly lighter white text on hover */
+}
+
+</style>
+
+
+
+{% endblock %}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RLink | Find Websites That Fit Your Needs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/projects.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="menu-icon" onclick="toggleMenu()">  
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="{{ url_for('main.home') }}">Home</a></li>
+                <li><a href="{{ url_for('main.about') }}">About</a></li>
+                <li><a href="{{ url_for('main.browse_categories') }}">Browse</a></li>
+                <li><a href="{{ url_for('main.changelog_page') }}" class="view-more">Changelog</a>
+                <li><a href="{{ url_for('main.news') }}">News</a></li>
+                <li><a href="/projects/main">Projects</a></li>
+                <li class="dropdown-version">BETA V0.7.0</li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; RLink 2025. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("nav-links");
+            if (navLinks.classList.contains("show")) {
+                navLinks.classList.remove("show");
+                navLinks.classList.add("hide");
+            } else {
+                navLinks.classList.remove("hide");
+                navLinks.classList.add("show");
+            }
+        }
+
+        document.getElementById("see-browse").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("showcase-section").scrollIntoView({
+                behavior: "smooth",
+            });
+        });
+
+    </script>
+</body>
+</html>

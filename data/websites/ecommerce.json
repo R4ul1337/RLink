@@ -1,0 +1,57 @@
+{
+    "name": "E-commerce",
+    "slug": "ecommerce",
+    "description": "Find the best platforms for online shopping and selling.",
+    "websites": [
+        {
+            "name": "Shopify",
+            "url": "https://www.shopify.com",
+            "description": "A complete platform to start and run an online store."
+        },
+        {
+            "name": "WooCommerce",
+            "url": "https://woocommerce.com/",
+            "description": "WordPress eCommerce plugin"
+        },
+        {
+            "name": "BigCommerce",
+            "url": "https://www.bigcommerce.com/",
+            "description": "Scalable eCommerce platform"
+        },
+        {
+            "name": "Magento (Adobe Commerce)",
+            "url": "https://business.adobe.com/products/magento/magento-commerce.html",
+            "description": "Customizable eCommerce solution"
+        },
+        {
+            "name": "Wix eCommerce",
+            "url": "https://www.wix.com/ecommerce/website",
+            "description": "Easy online store builder"
+        },
+        {
+            "name": "Squarespace",
+            "url": "https://www.squarespace.com/",
+            "description": "Website & eCommerce builder"
+        },
+        {
+            "name": "Ecwid",
+            "url": "https://www.ecwid.com/",
+            "description": "Free eCommerce integration"
+        },
+        {
+            "name": "PrestaShop",
+            "url": "https://www.prestashop.com/",
+            "description": "Open-source eCommerce"
+        },
+        {
+            "name": "Sellfy",
+            "url": "https://sellfy.com/",
+            "description": "Digital product selling platform"
+        },
+        {
+            "name": "Etsy",
+            "url": "https://www.etsy.com/",
+            "description": "Marketplace for handmade products"
+        }
+    ]
+}
